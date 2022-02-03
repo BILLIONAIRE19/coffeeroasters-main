@@ -1,0 +1,27 @@
+.form__container {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+}
+
+.form__list {
+    @include reset-list;
+}
+
+.form__item {
+    margin-bottom: 24px;
+    border-bottom: 1px solid #000;
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.form__link {
+    text-decoration: none;
+}
+
+.form__link:last-child {
+    margin-bottom: 0;
+}

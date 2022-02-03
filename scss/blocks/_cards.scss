@@ -1,0 +1,42 @@
+.cards {
+    flex-wrap: wrap;
+}
+
+.cards__btn {
+    display: block;
+    margin-bottom: 56px;
+    border: none;
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    background-color: #fff;
+    color: #83888F;
+}
+  
+.cards__item {
+    display: flex;
+    margin: 56px 0 88px 0;
+}
+ 
+.cards__item-radio:checked + .cards__item-wrapper {
+    background-color: #0E8784; 
+    color: #FEFCF7; 
+}
+ 
+.cards__item-wrapper {
+    padding: 32px 28px 84px; 
+    background-color: #f4f1eb;
+    
+    border-radius: 8px;
+}
+ 
+.cards__item-wrapper:hover {
+    background-color: #fdd6ba;
+    color: #333D4B;;
+}
+ 
+.cards__item-label {
+    margin-right: 23px;
+    width: 228px;
+}

@@ -1,0 +1,16 @@
+.nav__list {
+    @include reset-list;
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 33px;   
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+    text-decoration: none;
+}

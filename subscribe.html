@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe-active</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <section class="form">
+        <div class="container form__container">
+            <ul class="form__list">
+                <li class="form__item">
+                    <a class="form__link" href="#">01 Preferences</a>
+                </li>
+                <li class="form__item">
+                    <a class="form__link" href="#">02 Bean Type</a>
+                </li>
+                <li class="form__item">
+                    <a class="form__link" href="#">03 Quantity</a>
+                </li>                    
+                <li class="form__item">
+                    <a class="form__link" href="#">04 Grind Option</a>
+                </li>                    
+                <li class="form__item">
+                    <a class="form__link" href="#">05 Deliveries</a>
+                </li>                    
+            </ul>
+            
+            <form class="cards" action="#" method="get">
+                <div class="cards__radio">
+                    <button class="cards__btn">How do you drink your coffee?</button>                    
+                    <div class="cards__item">
+                    
+                        <label class="cards__item-label" for="capsule">
+                            <input class="cards__item-radio visually-hidden" id="capsule" type="radio" name="coffee_name">
+                            <div class="cards__item-wrapper">
+                                <h3 class="cards__item-title">Capsule</h3>
+                                <p class="cards__item-desc">Compatible with Nespresso systems and similar brewers</p>
+                            </div>
+                        </label>
+                    
+                        <label class="cards__item-label" for="filter">
+                            <input class="cards__item-radio visually-hidden" id="filter" type="radio" name="coffee_name">
+                            <div class="cards__item-wrapper">
+                                <h3 class="cards__item-title">Filter</h3>
+                                <p class="cards__item-desc">For pour over or drip methods like Aeropress, Chemex, and V60
+                                </p>
+                            </div>
+                        </label>
+                    
+                        <label class="cards__item-label" for="espresso">
+                            <input class="cards__item-radio visually-hidden" id="espresso" type="radio" name="coffee_name">
+                            <div class="cards__item-wrapper">
+                                <h3 class="cards__item-title">Espresso</h3>
+                                <p class="cards__item-desc">Dense and finely ground beans for an intense, flavorful
+                                    experience</p>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="cards__radio">
+                    <button class="cards__btn">What type of coffee?</button>
+                    <div class="cards__item">
+                        <label class="cards__item-label" for="origin">
+                            <input class="cards__item-radio visually-hidden" id="origin" type="radio" name="coffee_type">
+                            <div class="cards__item-wrapper">
+                                <h3 class="cards__item-title">Single Origin</h3>
+                                <p class="cards__item-desc">Distinct, high quality coffee from a specific family-owned farm
+                                </p>
+                            </div>
+                        </label>
+                    
+                        <label class="cards__item-label" for="decaf">
+                            <input class="cards__item-radio visually-hidden" id="decaf" type="radio" name="coffee_type">
+                            <div class="cards__item-wrapper">
+                                <h3 class="cards__item-title">Decaf</h3>
+                                <p class="cards__item-desc">Just like regular coffee, except the caffeine has been removed
+                                </p>
+                            </div>
+                        </label>
+                    
+                        <label class="cards__item-label" for="blended">
+                            <input class="cards__item-radio visually-hidden" id="blended" type="radio" name="coffee_type">
+                            <div class="cards__item-wrapper">
+                                <h3 class="cards__item-title">Blended</h3>
+                                <p class="cards__item-desc">Combination of two or three dark roasted beans of organic
+                                    coffees</p>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="cards__radio">
+                    <button class="cards__btn">How much would you like?</button>
+                    <div class="cards__item">
+                        <label class="cards__item-label" for="250g">
+                            <input class="cards__item-radio visually-hidden" id="250g" type="radio" name="coffee_weight">
+                            <div class="cards__item-wrapper">
+                                <h3 class="cards__item-title">250g</h3>
+                                <p class="cards__item-desc">Perfect for the solo drinker. Yields about 12 delicious cups.
+                                </p>
+                            </div>
+                        </label>
+                    
+                        <label class="cards__item-label" for="500g">
+                            <input class="cards__item-radio visually-hidden" id="500g" type="radio" name="coffee_weight">
+                            <div class="cards__item-wrapper">
+                                <h3 class="cards__item-title">500g</h3>
+                                <p class="cards__item-desc">Perfect option for a couple. Yields about 40 delectable cups.</p>
+                            </div>
+                        </label>
+                    
+                        <label class="cards__item-label" for="1000g">
+                            <input class="cards__item-radio visually-hidden" id="1000g" type="radio" name="coffee_weight">
+                            <div class="cards__item-wrapper">
+                                <h3 class="cards__item-title">1000g</h3>
+                                <p class="cards__item-desc">Perfect for offices and events. Yields about 90 delightful cups.</p>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="cards__radio">
+                    <button class="cards__btn">Want us to grind them?</button>
+                    <div class="cards__item">
+                        <label class="cards__item-label" for="wholebean">
+                            <input class="cards__item-radio visually-hidden" id="wholebean" type="radio" name="coffee_grind">
+                            <div class="cards__item-wrapper">
+                                <h3 class="cards__item-title">Wholebean</h3>
+                                <p class="cards__item-desc">Best choice if you cherish the full sensory experience</p>
+                            </div>
+                        </label>
+                    
+                        <label class="cards__item-label" for="filtered">
+                            <input class="cards__item-radio visually-hidden" id="filtered" type="radio" name="coffee_grind">
+                            <div class="cards__item-wrapper">
+                                <h3 class="cards__item-title">Filter</h3>
+                                <p class="cards__item-desc">For drip or pour-over coffee methods such as V60 or Aeropress
+                                </p>
+                            </div>
+                        </label>
+                    
+                        <label class="cards__item-label" for="cafetiére">
+                            <input class="cards__item-radio visually-hidden" id="cafetiére" type="radio" name="coffee_grind">
+                            <div class="cards__item-wrapper">
+                                <h3 class="cards__item-title">Cafetiére</h3>
+                                <p class="cards__item-desc">Course ground beans specially suited for french press coffee</p>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="cards__radio">
+                    <button class="cards__btn">How often should we deliver?</button>
+                    <div class="cards__item">
+                        <label class="cards__item-label" for="every week">
+                            <input class="cards__item-radio visually-hidden" id="every week" type="radio" name="coffee_deliver">
+                            <div class="cards__item-wrapper">
+                                <h3 class="cards__item-title">Every week</h3>
+                                <p class="cards__item-desc">$7.20 per shipment. Includes free first-class shipping.</p>
+                            </div>
+                        </label>
+                    
+                        <label class="cards__item-label" for="every 2 weeks">
+                            <input class="cards__item-radio visually-hidden" id="every 2 weeks" type="radio" name="coffee_deliver">
+                            <div class="cards__item-wrapper">
+                                <h3 class="cards__item-title">Every 2 weeks</h3>
+                                <p class="cards__item-desc">$9.60 per shipment. Includes free priority shipping.</p>
+                            </div>
+                        </label>
+                    
+                        <label class="cards__item-label" for="every month">
+                            <input class="cards__item-radio visually-hidden" id="every month" type="radio" name="coffee_deliver">
+                            <div class="cards__item-wrapper">
+                                <h3 class="cards__item-title">Every month</h3>
+                                <p class="cards__item-desc">$12.00 per shipment. Includes free priority shipping.</p>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+    </form>
+</body>
+
+</html>
